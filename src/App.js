@@ -4,6 +4,8 @@ import Body from './Components/Body';
 import Login from './Components/Login';
 import Register from './Components/Register';
 import Home from './Pages/Home';
+import Info from './Pages/Info';
+
 
 const appRouter = createBrowserRouter([
   {
@@ -21,6 +23,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/register",
         element: <Register />,
+      },
+      {
+        path: "/info",
+        element: <Info />,
       },
 
     ]
